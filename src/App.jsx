@@ -23,7 +23,7 @@ class App extends Component {
       <div className="App">
         <div className="App-title">Countdown to {this.state.deadline}</div>
         <div />
-        <Clock />
+        <Clock deadline={this.state.deadline} />
         <div>
           <input
             placeholder={this.state.deadline}
